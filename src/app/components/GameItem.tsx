@@ -12,8 +12,8 @@ export const GameItem = (props: GameItemProps) => {
         <div className='bg-slate-500 rounded-full w-52 h-24'>
         </div>
         <div>
-          <h3>{props.name}</h3>
-          <p>{props.description}</p>
+          <h3 className="text-amber-600">{props.name}</h3>
+          <p className="text-amber-600 text-left">{props.description}</p>
         </div>
       </div>
       <Button text="Jogar" link="/" type={Type.Sec} />

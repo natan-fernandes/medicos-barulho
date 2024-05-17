@@ -11,11 +11,11 @@ export default function Page() {
         <Manchete title='Campanhas' description='Algumas doações recebidas' />
       </div>
       <p className='text-amber-600'>
-        Seja um
-        <Link href='/participar'> participante </Link>
-        de visitas ou doações. Essas e mais publicações você pode acompanhar através do nosso
-        <a href='https://www.instagram.com/medicosdobarulho/' target="_blank" rel="noopener noreferrer"> Instagram </a>
-        !
+        Seja um ‎
+        <Link href='/participar' className="text-sky-400 font-bold">participante</Link>
+        ‎ de visitas ou doações. Essas e mais publicações você pode acompanhar através do nosso ‎
+        <a href='https://www.instagram.com/medicosdobarulho/' target="_blank" rel="noopener noreferrer" className="text-sky-400 font-bold">Instagram</a>
+        ‎ !
       </p>
     </article>
   )
