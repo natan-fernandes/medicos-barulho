@@ -12,7 +12,6 @@ export const LogoWithLink = (props: LogoWithLinkProps) => {
   return (
     <a
       href={props.href}
-      className=""
       target="_blank"
       rel="noopener noreferrer"
     >
