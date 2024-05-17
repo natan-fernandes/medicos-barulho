@@ -3,7 +3,7 @@ import { Manchete } from "../components/Manchete";
 
 export default function Page() {
   return (
-    <article>
+    <section>
       <h1 className='text-amber-600'>Atuações Recentes</h1>
       <div className='flex gap-4 flex-wrap'>
         <Manchete title='Visitas' description='Algumas visitas realizadas' />
@@ -17,6 +17,6 @@ export default function Page() {
         <a href='https://www.instagram.com/medicosdobarulho/' target="_blank" rel="noopener noreferrer" className="text-sky-400 font-bold">Instagram</a>
         ‎ !
       </p>
-    </article>
+    </section>
   )
 }
