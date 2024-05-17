@@ -32,7 +32,7 @@ export const NavBar = () => {
             <NavItem href='#quem-somos' text='Quem somos'/>
             <NavItem href='#atuacoes' text='Atuações'/>
             <NavItem href='/jogos' text='Jogos'/>
-            <NavItem href='#participar' text='Participar'/>
+            <NavItem href='/participar' text='Participar'/>
           </ul>
         </div>
       </div>
