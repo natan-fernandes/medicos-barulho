@@ -7,8 +7,8 @@ interface NavItemProps {
 
 export const NavItem = (props: NavItemProps) => {
   return (
-    <li className='float-left text-lg'>
-      <Link href={props.href} className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-red-600 md:p-0">
+    <li className='float-left'>
+      <Link href={props.href} className="block py-2 px-3 text-amber-600 rounded hover:text-sky-400 md:hover:text-sky-400 md:border-0 md:hover:text-red-600 md:p-0 uppercase transition duration-300">
         {props.text}
       </Link>
     </li>
