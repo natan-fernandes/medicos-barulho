@@ -18,8 +18,8 @@ export const LogoWithLink = (props: LogoWithLinkProps) => {
       <Image
         src={props.iconPath}
         alt={props.alt}
-        width={props.width ?? 20}
-        height={props.height ?? 10}
+        width={props.width ?? 30}
+        height={props.height ?? 30}
       />
     </a>
   );
