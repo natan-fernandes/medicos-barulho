@@ -1,4 +1,5 @@
 import { Input } from "../components/Input";
+import { Button, Type } from "../components/Button";
 
 export default function Page() {
   return (
@@ -15,9 +16,7 @@ export default function Page() {
         </div>
         <Input text='Email' />
         <div className='w-full mt-4'>
-          <button className='bg-sky-400 text-lg font-bold text-slate-50 p-4 rounded-md w-1/2'>
-            Enviar
-          </button>
+          <Button text="Enviar" link="/" type={Type.Main} />
         </div>
       </form>
     </section>

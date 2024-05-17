@@ -1,3 +1,5 @@
+import { Button, Type } from "./Button"
+
 interface GameItemProps {
   name: string;
   description: string;
@@ -14,9 +16,7 @@ export const GameItem = (props: GameItemProps) => {
           <p>{props.description}</p>
         </div>
       </div>
-      <button className='bg-amber-600 text-slate-50 rounded-md p-4'>
-        Jogar
-      </button>
+      <Button text="Jogar" link="/" type={Type.Sec} />
     </div>
   )
 }
