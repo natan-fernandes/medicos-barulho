@@ -20,8 +20,8 @@ export default function RootLayout({
     <html lang="pt">
       <body className={"bg-red-200 " + inter.className}>
         <NavBar />
-        <div className='py-8'>
-          <main className='prose max-w-none mx-auto rounded-md p-8 w-4/5 ring-sky-400 ring-2 bg-slate-50 max-w-screen-xl'>
+        <div className='py-8 px-0 md:px-5 md:mb-0 mb-56'>
+          <main className='prose w-auto max-w-screen-xl mx-4 md:mx-auto rounded-md p-8 w-4/5 ring-sky-400 ring-2 bg-slate-50'>
             {children}
           </main>
         </div>

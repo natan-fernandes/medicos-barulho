@@ -16,7 +16,7 @@ export const NavBar = () => {
 
   return (
     <nav className="bg-white border-gray-200">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="https://scontent.fjdf2-2.fna.fbcdn.net/v/t1.18169-9/12745648_675211279284222_7597893156519552135_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFiFb5g0HqwtrAj0Ye9BYqtPQRo1e1kbSo9BGjV7WRtKiw7ioeXcexMK6E2CXuFdXN2cYhw1ZimeLOkFRLY3kbV&_nc_ohc=E8IulPNrHHQQ7kNvgHWSQjp&_nc_ht=scontent.fjdf2-2.fna&oh=00_AYCFUajIYpHFHG5N0U6OY28S2VJpA7LCc8ZQHiDElGoZgw&oe=666C18EB" className="h-8" alt="Logo médicos do barulho" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap">Médicos do Barulho</span>
