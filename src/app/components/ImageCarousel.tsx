@@ -11,7 +11,7 @@ export const ImageCarousel = () => {
       src={imageCarousel1}
       width={width}
       height={height}
-      className='ring-sky-400 ring-2 rounded-md'
+      className='ring-sky-400 ring-2 rounded-md mb-0'
       alt="Ação do médicos do barulho"
     />
   );
