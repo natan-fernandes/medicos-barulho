@@ -1,27 +1,19 @@
 import { ImageCarousel } from "./components/ImageCarousel";
+import { Button, Type } from "./components/Button";
 
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col">
+    <section>
+      <h1 id='quem-somos' className='text-amber-600'>Bem vindo ao MÉDICOS DO BARULHO!</h1>
       <ImageCarousel />
-
-      <section className='mx-auto prose mt-8'>
-        <h1 id='atuacoes'>Atuações</h1>
-        <h2>Visita à pediatria</h2>
-        <p>Os Médicos do Barulho trouxeram sua magia à ala de pediatria, transformando o ambiente hospitalar
-          em um cenário de diversão e risadas. Com narizes vermelhos e trajes coloridos, os palhaços encantaram as crianças
-          com suas brincadeiras e truques. Cada momento foi preenchido com a alegria contagiosa dos Médicos do Barulho,
-          deixando um rastro de sorrisos e lembranças felizes para as crianças e suas famílias.</p>
-      </section>
-
-
-
-      <p className='mt-8'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque dolores quisquam nesciunt, distinctio ex aut deleniti cum alias possimus similique praesentium adipisci eum veniam a inventore obcaecati dolorum beatae quo!
-        In natus quisquam cum error numquam voluptatum, enim eum? Omnis et odio at ut iure deleniti accusantium voluptatum. Commodi minima pariatur qui quaerat officia et impedit nemo, similique nostrum possimus?
-        Vero voluptatem dignissimos tempore est iusto ea aspernatur eaque libero minima. Exercitationem nobis minus earum. Fugiat eos blanditiis reprehenderit neque, impedit molestias, itaque excepturi dolores veniam eaque nemo, repellat praesentium?
-        Odio similique voluptatibus error aperiam ad fugit explicabo, voluptas iusto animi eaque commodi tenetur, vitae illum voluptates inventore quae magni ex pariatur quam eum nulla repellendus dolorem? Asperiores, ea sapiente?
-        Cumque voluptatum deleniti dolor recusandae, quis suscipit nostrum laudantium in, ab alias laboriosam molestias consequuntur vel optio quas numquam porro sequi nemo, tenetur iure voluptate voluptates accusamus atque non. Ut.</p>
-    </main>
+      <div className="md:absolute md:translate-x-[1rem] md:translate-y-[-13rem] bg-slate-50 rounded-md p-2 ring-sky-400 md:ring-2 md:w-[35rem] md:p-5">
+        <p className='text-amber-600 m-0'>Veja nossa alegria transformadora! Explore projetos, participe, e sinta a magia nas imagens.</p>
+        <div className="flex flex-col md:flex-row md:gap-2 items-center md:items-start">
+          <Button text="Participar" link="/participar" type={Type.Main} />
+          <Button text="Saiba Mais" link="/quem-somos" type={Type.Sec} />
+        </div>
+      </div>
+    </section>
   )
 }
