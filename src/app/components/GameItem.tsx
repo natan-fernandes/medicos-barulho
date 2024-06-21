@@ -3,6 +3,7 @@ import { Button, Type } from "./Button"
 interface GameItemProps {
   name: string;
   description: string;
+  to: string;
 }
 
 export const GameItem = (props: GameItemProps) => {
@@ -16,7 +17,7 @@ export const GameItem = (props: GameItemProps) => {
           <p className="text-amber-600 text-left">{props.description}</p>
         </div>
       </div>
-      <Button text="Jogar" link="/" type={Type.Sec} />
+      <Button text="Jogar" link={props.to} type={Type.Sec} />
     </div>
   )
 }
